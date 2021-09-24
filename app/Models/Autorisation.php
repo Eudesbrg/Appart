@@ -13,6 +13,8 @@ class Autorisation extends Model
         'autorisation'
     ];
 
+    public $timestamps = false;
+
     public function appartement() {
         return $this->belongsToMany(Appartement::class);
     }

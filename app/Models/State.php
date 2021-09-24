@@ -9,7 +9,7 @@ class State extends Model
 {
     use HasFactory;
     protected $fillable = [
-        'slug','color',
+        'nom','slug','color',
     ];
 
     public $timestamps = false;

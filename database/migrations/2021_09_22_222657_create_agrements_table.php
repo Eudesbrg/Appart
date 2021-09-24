@@ -15,7 +15,7 @@ class CreateAgrementsTable extends Migration
     {
         Schema::create('agrements', function (Blueprint $table) {
             $table->id();
-            $table->string('name');
+            $table->string('nom');
             $table->string('description');
         });
     }
