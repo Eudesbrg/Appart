@@ -13,7 +13,6 @@ class CreateReservationsTable extends Migration
      */
     public function up()
     {
-        Schema::disableForeignKeyConstraints();
         Schema::create('reservations', function (Blueprint $table) {
             $table->id();
             $table->foreignId('appartement_id')->constrained('appartements')->onUpdate('cascade')->onDelete('cascade');
