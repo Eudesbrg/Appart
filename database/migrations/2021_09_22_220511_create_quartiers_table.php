@@ -17,7 +17,7 @@ class CreateQuartiersTable extends Migration
             $table->id();
             $table->string('nom');
             $table->string('image');
-            $table->foreignId('ville_id')->constrained('Villes')->onUpdate('cascade')->onDelete('cascade');
+            $table->foreignId('ville_id')->Constrained('villes')->onUpdate('cascade')->onDelete('cascade');
         });
     }
 
