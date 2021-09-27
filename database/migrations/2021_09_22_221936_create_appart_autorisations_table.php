@@ -13,7 +13,6 @@ class CreateAppartAutorisationsTable extends Migration
      */
     public function up()
     {
-        schema::disableForeignKeyConstraints();
         Schema::create('appart_autorisations', function (Blueprint $table) {
             $table->id();
             $table->foreignId('appartement_id')->constrained('appartements')->onUpdate('cascade')->onDelete('cascade');
