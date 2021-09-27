@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\{homeController,QuartierAppartementController};
 
 /*
 |--------------------------------------------------------------------------
@@ -13,6 +14,5 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', [homeController::class, 'index'])->name('home');
+Route::get('{slug_quartier}/{slug_category?}',[QuartierAppartementController::class,'showQuartierAppart'])->whereAlpha('slug_quartier');
