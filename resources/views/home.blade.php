@@ -297,9 +297,9 @@
     <!-- end of testimonials -->
 
 
-    <div class="flex justify-center items-center w-screen h-screen bg-gray-800">
+    <div class="flex justify-center items-center">
         <!-- COMPONENT CODE -->
-        <section class="w-full bg-red-400">
+        <section class="w-full" style="background-color: #ff6e84">
             <div class="container px-4 mx-auto">
                 <div class="grid grid-cols-1 my-10 lg:grid-cols-2">
                   <div class="text-center text-white my-auto mx-4">
