@@ -2,7 +2,7 @@
 
 @section('content')
     <!-- Header -->
-    <header id="header" class="header py-28 text-center md:pt-36 lg:text-left xl:pt-44 xl:pb-32">
+    <header id="header" class="header py-28 text-center md:pt-36 lg:text-left xl:pt-44 xl:pb-32 lg:pb-0">
         <div class="container px-4 sm:px-8 lg:grid lg:grid-cols-2 lg:gap-x-8">
             <div class="mb-16 lg:mt-32 xl:mt-40 xl:mr-12">
                 <h1 class="h1-large mb-5">TROUVER FACILEMENT VOTRE FUTURE LOGEMENT</h1>
@@ -85,7 +85,7 @@
     </header> <!-- end of header -->
     <!-- end of header -->
     <!-- Features -->
-    <div id="features" class="cards-1">
+    <div id="features" class="cards-1 pt-0">
         <div class="py-20">
             <p class="text-3xl font-extrabold uppercase">featured neighborhood in Madrid</p>
             <p>Découvrez des milliers d'appartements et de maisons à louer à Madrid</p>
@@ -179,15 +179,6 @@
                     <div><a href="#">Loft à louer</a></div>
                     <div><a href="#">Duplex à louer</a></div>
                 </div>
-                <div class="cell">
-                    <div>1</div>
-                    <div>2</div>
-                </div>
-                <div class="cell">
-                    <div>1</div>
-                    <div>2</div>
-                </div>
-            </div>
             <!-- end of counter -->
 
         </div> <!-- end of container -->
